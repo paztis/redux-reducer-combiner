@@ -1,0 +1,36 @@
+{
+  "name": "redux-reducer-combiner",
+  "version": "0.1.0",
+  "description": "Redux reducer combiner that permit to add, remove or update reducers dynamically",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register test/*.spec.js",
+    "build": "babel src/ --out-dir lib/ --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paztis/redux-reducer-combiner.git"
+  },
+  "keywords": [
+    "redux",
+    "reducer"
+  ],
+  "author": "reducer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paztis/redux-reducer-combiner/issues"
+  },
+  "homepage": "https://github.com/paztis/redux-reducer-combiner#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.35",
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "@babel/register": "^7.0.0-beta.35",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "redux": "^3.7.2"
+  },
+  "peerDependencies": {
+    "redux": ">= 3.0.0"
+  }
+}
